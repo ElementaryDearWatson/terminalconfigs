@@ -1,0 +1,12 @@
+.git/
+*.swp  # Swap files
+*.swo  # Swap files
+*.tmp  # Temporary files
+*.bak  # Backup files
+*.log  # Log files
+*.nvim-backup # nvim backup files
+/pack/*/start/*/plugin-name/.git # Ignore plugin .git directories
+/pack/*/opt/*/plugin-name/.git # Ignore plugin .git directories
+/cache/* # packer cache
+/sessions/* # nvim sessions
+/undo/* # nvim undo files
